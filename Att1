@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+   char a;
+   printf ("digite um caractere: ");
+   scanf("%c", &a);
+   
+    printf("Você digitou: %c\n", a);
+    
+    int b;
+    printf("insira um numero inteiro: ");
+    scanf("%d", &b);
+    printf("o numero é: %d\n", b);
+    
+    float c;
+    printf("digite um valor decimal simples: ");
+    scanf("%f", &c);
+    printf("o valor é: %f\n", c);
+    
+    double d;
+    printf("insira um numero decimal: ");
+    scanf("%lf", &d);
+    printf("o valor é: %lf\n", d);
+
+    return 0;
+}
