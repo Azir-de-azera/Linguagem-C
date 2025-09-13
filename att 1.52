@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+   int lado;
+   printf("digite o valor do lado de um quadrado: ");
+   scanf("%d", &lado);
+   if (lado <= 0){
+       
+       printf("valor invalido");
+       return 0;
+   }
+   int perimetro;
+   
+   perimetro = 4 * lado;
+   printf("perimetro do quadrado é: %d\n", perimetro);
+   
+   int  area;
+   area = lado * lado;
+   printf("a area do quadrado é: %d\n", area);
+    return 0;
+}
