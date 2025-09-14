@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Digite um número inteiro (menor ou igual a 0 para sair): ");
+    scanf("%d", &num);
+
+    while (num > 0) {
+        printf("O dobro de %d é %d\n", num, num * 2);
+        
+        printf("Digite um número inteiro (menor ou igual a 0 para sair): ");
+        scanf("%d", &num);
+    }
+
+    return 0;
+}
