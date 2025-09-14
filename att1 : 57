@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int c;
+    printf("digite a temperatura em celcius: ");
+    scanf("%d", &c);
+    if(c > 30){
+     printf("esta quente");
+     
+    }
+    else if ((c >= 15)&&(c <= 30)){
+        printf("esta agradavel");
+        
+    }
+    else{
+        printf("esta frio");
+    }
+        
+    return 0;
+}
