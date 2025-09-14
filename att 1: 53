@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int b,h,area;
+    printf("digite o valor da altura do retangulo: ");
+    scanf("%d", &h);
+    printf("digite o valor da base de um retangulo: ");
+    scanf("%d", &b);
+    if ((b % 2 != 0)&&(h % 2 != 0 )) {
+    printf("valores invalidos");
+    return 0;
+    }
+    area = b * h;
+    printf("a area do retangulo é: %d\n", area);
+    return 0;
+}
